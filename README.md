@@ -13,7 +13,7 @@ These are some of the assumptions when implementing the solution:
 - All metrics in the file have the same unit: bytes
 - The expected stats metrics will have the same unit: megabits
 - All metrics in the file contain sorted dates from oldest to newest
-- All files contain successful requests with code ok; otherwise would have to  those checks
+- All files contain successful requests with code ok
 - The under-performing periods will be represented by a start and an end date
 
 A list of TODOs was added to the [TODO file](TODO.md) in the project.
