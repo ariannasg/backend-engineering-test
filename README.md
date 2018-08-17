@@ -22,6 +22,7 @@ How to install it?
 --------------
 Make sure you set your env variables correctly in a .env file, especially including **SUMMARY_OWNER** and 
 **SUMMARY_VERSION**. You can find example of their values defined in the [phpunit.xml.dist file](phpunit.xml.dist)
+
 Run the following commands from the project root:
 
 `
@@ -55,6 +56,7 @@ make shell
  
 How to run the tests?
 --------------
-We'll use only [PHPUnit](https://phpunit.de/) for testing. You can find the classes under ./tests.
+We'll use only [PHPUnit](https://phpunit.de/) for testing. You can find the classes under [./tests](tests).
+
 For running all tests: 
 `make test`
